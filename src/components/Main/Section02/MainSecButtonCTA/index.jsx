@@ -29,7 +29,7 @@ const SubTitle = styled.h2`
     margin: 0.5rem 0rem 0.8rem;
     font-size: 1.5rem;
     line-height: 1.5;
-    text-transform: capitalize;
+
 
     @media (max-width: 1024px) {
         font-size: 22px;
@@ -83,7 +83,7 @@ function MainSecButtonCTA() {
                     ¿Quieres saber si tenemos cobertura de fibra en tu hogar?
                 </GlobalTitleSec2>
                 <SubTitle>
-                    Míralo aquí y contrata tu tarifa de fibra +móvil o sólo fibra de forma sencilla
+                Míralo aquí y contrata tu tarifa de fibra + móvil o solo fibra de forma sencilla
                 </SubTitle>
             
             <GlobalButtonCTA onClick={popUpOpen}>

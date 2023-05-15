@@ -9,8 +9,8 @@ const Icons = [icon1, icon2, icon3, icon4];
 const SubTitlesIcons = [
     "Los mejores servicios al mejor precio", 
     "La mejor cobertura de Vodafone", 
-    "Acumula GB para el mes siguiente", 
-    "Comparte GB con tus amigos Fi"
+    "Acumula GB para el siguiente mes", 
+    "Comparte GB con tus amigos de Fi"
 ];
 
 const Div = styled.div`

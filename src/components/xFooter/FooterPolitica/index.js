@@ -26,11 +26,16 @@ const Icons = styled.i`
 `;
 
 const Copy = styled.p`
-    font-size: 9px;
+    font-size: 16px;
     margin-top: 1rem;
 
     @media (max-width: 768px) {
         font-size: 14px;
+    }
+
+    @media (max-width: 481px) {
+        font-size: 9px;
+        text-align: center;
     }
 
 `;

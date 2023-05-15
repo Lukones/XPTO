@@ -107,11 +107,11 @@ const GlobalButtonPlanAmigo = styled(GlobalButton)`
 function MainSectionTitleCTA() {
   return (
     <DivCenter>
-      <Title>Con nuestro plan amigo querrás invitar a toda tu agenda</Title>
-      <SubTitle>Conseguí</SubTitle>
+      <Title>Con nuestro programa de indicación de amigos, querrás invitar a toda tu agenda</Title>
+      <SubTitle>Consigue</SubTitle>
       <TitleLarge>15€</TitleLarge>
-      <Title>en descuentos, por cada amigo que traigas.</Title>
-      <SmallText>Suscribe a nuestros paquetes</SmallText>
+      <Title>en descuentos por cada amigo que traigas</Title>
+      <SmallText>Suscríbete a nuestros paquetes</SmallText>
       <GlobalButtonPlanAmigo>INSCRIBIRSE</GlobalButtonPlanAmigo>
     </DivCenter>
   )

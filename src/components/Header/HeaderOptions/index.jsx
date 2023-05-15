@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { GlobalCentralizeDiv } from "../../stylesGlobal";
 
 const textOption = [
-  { id: 1, name: 'Plan Amigo', link: 'friend' },
-  { id: 2, name: 'Regalo', link: 'sport' },
-  { id: 3, name: 'Preguntas', link: 'faq' },
+  { id: 1, name: 'Plan Amigo', link: '/friend' },
+  { id: 2, name: 'Regalo', link: '/sport' },
+  { id: 3, name: 'Preguntas', link: '/faq' },
 ];
 
 const OptionsList = styled.li`

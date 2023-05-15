@@ -6,6 +6,8 @@ const Link = styled.a`
     margin: 0.5rem 0;
     text-align: left;
     cursor: pointer;
+    color: #000;
+    text-decoration: none;
     &:hover {
         color: #fff;
     }
@@ -24,7 +26,7 @@ function Links(props) {
     return (
         <>  
             {/* Tarifas Móvil === Tarifas Móvil && TMovil(Móvil 24GB)  */}
-            {props.text === props.tarifas && props.subtarifas.map((text, indice) => <Link key={indice}>{text}</Link>)}
+            {props.text === props.tarifas && props.subtarifas.map((text, indice) => <Link key={indice} href={text === "Centro de ayuda" ? "/faq" : window.location.origin}>{text}</Link>)}
         </>)
 
 };
