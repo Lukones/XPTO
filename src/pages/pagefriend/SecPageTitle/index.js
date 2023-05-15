@@ -3,7 +3,7 @@ import { GlobalButton } from "../../../components/stylesGlobal";
 
 export const DivCenter = styled.div` 
   max-width: 1080px; 
-  margin: 0 1rem; 
+  margin: 0 auto; 
   display: flex; 
   flex-direction: column; 
   align-items: center; 
@@ -74,6 +74,7 @@ export const SmallText = styled.p`
   font-weight: 400;
   color: #666666;
   margin: 3rem 0;
+  text-align: center;
 
   @media (max-width: 1024px) {
     text-align: center;
@@ -116,5 +117,4 @@ function MainSectionTitleCTA() {
     </DivCenter>
   )
 };
-
 export default MainSectionTitleCTA;
