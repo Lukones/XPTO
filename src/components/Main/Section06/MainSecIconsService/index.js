@@ -25,7 +25,6 @@ const Div = styled.div`
     }
 `;
 
-// Quis criar um salto dos Icons de servicos, usei os keyframes para criar o bounce com o transform
 const bounce = keyframes`
     
     from, 20%, 53%, 80%, to {

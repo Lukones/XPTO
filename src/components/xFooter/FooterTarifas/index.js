@@ -46,11 +46,6 @@ const OptionsList = styled.li`
 }
 `;
 
-// Fazendo um map do array textOption para criar vários elementos OptionsList 
-// Criando um div com um parágrafo contendo o texto da opção    
-// Criando um elemento Links e passando as propriedades text, tarifas e subtarifas
-      
-
 function OptionsFooter() {
   return (
     <Options>

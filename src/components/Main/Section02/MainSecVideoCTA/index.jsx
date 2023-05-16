@@ -41,11 +41,6 @@ const StyledCarousel = styled(GlobalStyledCarousel)`
     }
 `;
 
-
-// O código utiliza a biblioteca Bootstrap para criar um carousel de vídeos. 
-// Foi feita uma adaptação do código original para utilizar apenas o CSS do carousel e evitar alterações no restante do código. 
-// Os vídeos são armazenados em uma array e percorridos utilizando a função map(), para serem exibidos no carousel.
-
 function MainSecVideoCTA() {
     return (
     <StyledCarousel interval={null} variant="dark">

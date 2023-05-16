@@ -87,10 +87,6 @@ const GlobalButtonPopUp = styled(GlobalButton)`
 `;
 
 
-// Componente PopDesign é responsável por renderizar o formulário de verificação de cobertura.
-// O <GlobalButtonPopUp onClick={onClose}> é o botão para cancelar o formulário.
-// Quando o usuário clicar em {open && <PopDesign onClose={popUpClose} />}, 
-// onClose será o prop passado para o onClick, que atualizará a variável de estado "open" para FALSE.
 function popDesign({onClose}){
 
     return (

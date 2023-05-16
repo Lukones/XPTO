@@ -61,21 +61,16 @@ const GlobalButtonCTA = styled(GlobalButton)`
 
 function MainSecButtonCTA() {
 
-     // define estado "open" como false usando o hook useState
     const [open, setOpen] = useState(false)
 
-    // função para abrir o popup definida aqui
     const popUpOpen = () => {
         setOpen(true);
     }
 
-    // função para fechar o popup definida aqui
     const popUpClose = () => {
         setOpen(false);
     }
 
-    // botão <GlobalButtonCTA onClick={popUpOpen}> com evento onClick para abrir o popup
-    //  {open && <PopDesign onClose={popUpClose} />} renderiza o componente de popup apenas se o estado "open" for true
     return (
         <MainSection >
             
