@@ -1,9 +1,10 @@
 import styled from "styled-components";
-import OptionsHeader from "./HeaderOptions";
+import HeaderMenu from "./HeaderMenu";
 import OptionsIconHeader from "./HeaderOptionsIcon";
 
 const HeaderContainer = styled.header`
-    background: linear-gradient(to right, #5f97fecc 0%, #8c53fecc 100%);
+    background: linear-gradient(to right, #81A4FC 0%, #A174FC 100%);
+    z-index: 999;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -19,6 +20,7 @@ const HeaderContainer = styled.header`
 
     @media (max-width: 768px) {
         height: 65px;
+        position: fixed;
         padding: 0 0;
     }
 
@@ -41,7 +43,7 @@ function Header() {
     return (
         <HeaderContainer>
             <DivContainer>
-                <OptionsHeader />
+                <HeaderMenu />
                 <OptionsIconHeader />
             </DivContainer>
         </HeaderContainer>

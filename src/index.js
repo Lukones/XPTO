@@ -13,7 +13,23 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+  
+    ::-webkit-scrollbar {
+      width: 10px;
     }
+
+    ::-webkit-scrollbar-track {
+      background: #fff;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(to bottom, #81A4FC 0%, #A174FC 100%);
+      border-radius: 5px;
+    }
+    
+    ::-webkit-scrollbar {
+      border-radius: 10px;
+}
 `;
 
 const router = createBrowserRouter([

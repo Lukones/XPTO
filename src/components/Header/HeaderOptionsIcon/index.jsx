@@ -15,6 +15,7 @@ const Icon = style.div`
         text-decoration: none;
         color: #000;
         &:hover {
+            scale: 1.15;
             color: #fff;
             cursor: pointer;
         }

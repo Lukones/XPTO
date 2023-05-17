@@ -8,7 +8,6 @@ import Section06 from "./Section06";
 
 const MainContainer = styled.main`
     background: #fff;
-    opacity: 0.2
     display: flex;
     flex-direction: column;
     justify-content: center;

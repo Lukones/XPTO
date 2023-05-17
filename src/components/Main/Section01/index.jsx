@@ -15,13 +15,13 @@ const GlobalCentralizeDiv01 = styled(GlobalCentralizeDiv)`
     @media (max-width: 768px) {
         justify-content: space-around;
         align-items: flex-start;
-        padding-bottom: 1.5rem;
+        padding: 4.063rem 0 1.5rem;
     }
 
     @media (max-width: 481px) {
         justify-content: space-around;
         align-items: flex-start;
-        padding-bottom: 1.5rem;
+        padding: 3.125rem 0 1.5rem;
     }
 
 `;
